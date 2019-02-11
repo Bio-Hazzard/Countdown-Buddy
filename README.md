@@ -30,7 +30,15 @@ After installing Mono project simply [run the program with Mono project from the
 [3. Using voice plans](#3-using-voice-plans)
 
 ### 1. Basic operation
-**TO-DO**
+Countdown Buddy is used to countdown the time to an event. This appication allows for the exact time to any event to be displayed and optionally read out at custom defined periods, this is especially useful for timing when an eclipse will occur.
+
+Countdown Buddy has three main components: The big timer, the event details pane and the settings pane.
+
+The big timer displays in hh:mm:ss.ff format with the - sign indicating that it is counting down to the event.
+
+The event details pane displays how long until the event will occur, the duration of the event, when the halftime will occur and when the event will end. All of these values are automatically calculated based on what is entered in the settings pane. The settings button is used to hide the settings pane to prevent accidental changing of the settings.
+
+The settings pane allows for all of the information needed for the countdown to be entered. Only two of the three fields needs to be filled out and the rest will automatiaclly be calculated. Voice plans can also be loaded in from this pane.
 
 ### 2. Entering events time
 **TO-DO**
