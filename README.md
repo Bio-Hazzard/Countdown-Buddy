@@ -43,17 +43,54 @@ The event details pane displays how long until the event will occur, the duratio
 The settings pane allows for all of the information needed for the countdown to be entered. Only two of the three fields needs to be filled out and the rest will automatiaclly be calculated. Voice plans can also be loaded in from this pane.
 
 ### 2. Entering events time
-For countdown buddy to begin a countdown you first need to fill out when the event is happening! On startup the systems current time is used as the default event time.
+For Countdown Buddy to begin a countdown you first need to fill out when the event is happening! On startup the systems current time is used as the default event time.
 
 To start fill out one of the three fields, the format is hh:mm:ss.ff and must be less than 24 hours. After filling out two of the three fields the last field will be calculated automatically.
 
 After entering the event details it is a good idea to press the settings button again to hide the settings pane to prevent unintended changes.
 
 ### 3. Using voice plans
-**TO-DO**
+Voice plans allow you to add spoken sentences to your countdown, this is especially useful if you want to keep track of how much time you have left without staring at a screen.
+
+Voice plans are controlled via specially formatted text files that tell Countdown Buddy what to say when.
+
+The fastest way to get started with voice plans is to click on the "Generate example voice plan" button. This will automatically generate an example of what a voice plan should look like.
+
+#### Voice plan basics:
+Comments can be made with // at the beginning of a line
+
+The format for voice events is t-00:00:00.00,r0,hello world
+All fields are seperated with a comma
+
+Time in countdown goes first
+Leading with - sign indicates voiceEvent to play before event
+
+Time formats:
+t-10:00:00 = 10 hours before event
+t-10:00 = 10 minutes before event
+t-10 = 10 seconds before event
+t-00.10 = 10 microseconds before event
+t20 = 20 seconds after event
+t30:00 = 30 minutes after event
+
+An optional speech rate (within -10 to 10) can be specified
+Speech rate controls how fast the message players
+Leaving it blank will default it to zero
+
+The last field is the message you want spoken
+Anything placed after the last comma will be spoken
+
+Voice plans only get executed once
+To run a second time simply reload the voice plan
 
 
-**If you're experiencing any problems then you can open a new issue under the [issue tab.](../../issues)**
 
-**Clear Skies,
-Jameson**
+
+
+
+--------------------------------------
+If you're experiencing any problems then you can open a new issue under the [issue tab.](../../issues)
+
+**Clear Skies,**
+
+**Jameson**
