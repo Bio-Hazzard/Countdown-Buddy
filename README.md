@@ -39,7 +39,7 @@ After installing Mono project simply [run the program with Mono project from the
 **TO-DO**
 
 
-**If you're experiencing any problems then you can open a new issue under the [issue tab.](/issues)**
+**If you're experiencing any problems then you can open a new issue under the [issue tab.](../../issues)**
 
 **Clear Skies,
 Jameson**
