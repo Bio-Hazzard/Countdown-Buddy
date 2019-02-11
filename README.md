@@ -21,13 +21,15 @@ Next install [Mono project for your operating system.](https://www.mono-project.
 
 After installing Mono project simply [run the program with Mono project from the command line.](https://www.mono-project.com/docs/about-mono/supported-platforms/macos/)
 
-## User guide
+## Contents
 
 [1. Basic operation](#1-basic-operation)
 
 [2. Entering events time](#2-entering-events-time)
 
 [3. Using voice plans](#3-using-voice-plans)
+
+## User guide
 
 ### 1. Basic operation
 Countdown Buddy is used to countdown the time to an event. This appication allows for the exact time to any event to be displayed and optionally read out at custom defined periods, this is especially useful for timing when an eclipse will occur.
@@ -41,7 +43,11 @@ The event details pane displays how long until the event will occur, the duratio
 The settings pane allows for all of the information needed for the countdown to be entered. Only two of the three fields needs to be filled out and the rest will automatiaclly be calculated. Voice plans can also be loaded in from this pane.
 
 ### 2. Entering events time
-**TO-DO**
+For countdown buddy to begin a countdown you first need to fill out when the event is happening! On startup the systems current time is used as the default event time.
+
+To start fill out one of the three fields, the format is hh:mm:ss.ff and must be less than 24 hours. After filling out two of the three fields the last field will be calculated automatically.
+
+After entering the event details it is a good idea to press the settings button again to hide the settings pane to prevent unintended changes.
 
 ### 3. Using voice plans
 **TO-DO**
