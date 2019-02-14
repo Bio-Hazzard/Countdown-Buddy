@@ -1,0 +1,50 @@
+//-------------------------------------------------------
+//ISS transit voice plan - Jameson Hartel - 14-02-2019
+//-------------------------------------------------------
+//
+//Time formats:
+//t-10:00:00 = 10 hours before event
+//t-10:00 = 10 minutes before event
+//t-10 = 10 seconds before event
+//t-00.10 = 10 microseconds before event
+//t20 = 20 seconds after event
+//t30:00 = 30 minutes after event
+
+//3 hours
+t-03:00:00,t -3 hours untill i.s.s. transit
+t-02:30:00,t -2 hours and 30 minutes untill i.s.s. transit
+t-02:00:00,t -2 hours untill i.s.s. transit
+t-01:30:00,t -1 hour and 30 minutes untill i.s.s. transit
+t-01:00:00,t -1 hour untill i.s.s. transit
+t-30:00,t -30 minutes untill i.s.s. transit
+t-15:00,t -15 minutes untill i.s.s. transit
+t-10:00,t -10 minutes untill i.s.s. transit
+t-05:00,t -5 minutes untill i.s.s. transit
+t-04:00,t -4 minutes
+t-03:00,t -3 minutes
+t-02:00,t -2 minutes
+t-01:00,t -1 minutes
+t-50,t -50 seconds
+t-40,t -40 seconds
+t-30,t -30 seconds
+t-21,t -20 seconds
+t-20,r3,t -19
+t-19,r3,18
+t-18,r3,17
+t-17,r3,16
+t-16,r3,15
+t-15,r3,14
+t-14,r3,13
+t-13,r3,12
+t-12,r3,11
+t-11,r3,10
+t-10,r3,9
+t-9,r3,8
+t-8,r3,7
+t-7,r3,6
+t-6,r3,5
+t-5,r3,4
+t-4,r3,3
+t-3,r3,2
+t-2,r3,1
+t01:00,1 minute since transit

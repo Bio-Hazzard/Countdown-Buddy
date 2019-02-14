@@ -1,0 +1,52 @@
+//-------------------------------------------------------
+//Example voice plan - Jameson Hartel - 10-02-2019
+//-------------------------------------------------------
+//This file is used to add voice events to your countdown
+//Comments can be made with // at the beginning of a line
+//
+//
+//The format for voice events is t-00:00:00.00,r0,hello world
+//All fields are seperated with a comma
+//
+//Time in countdown goes first
+//Leading with - sign indicates voiceEvent to play before event
+//
+//Time formats:
+//t-10:00:00 = 10 hours before event
+//t-10:00 = 10 minutes before event
+//t-10 = 10 seconds before event
+//t-00.10 = 10 microseconds before event
+//t20 = 20 seconds after event
+//t30:00 = 30 minutes after event
+//
+//An optional speech rate (within -10 to 10) can be specified
+//Speech rate controls how fast the message players
+//Leaving it blank will default it to zero
+//
+//The last field is the message you want spoken
+//Anything placed after the last comma will be spoken
+//
+//Voice plans only get executed once
+//To run a second time simply reload the voice plan
+//-------------------------------------------------------
+
+
+
+t-34,this is an example message
+t-31,by specifying a speech rate I can control how quickly messages are red
+t-26,r3,by specifying a speech rate of 3 I can say my messages faster
+t-23,r-3,or by specifying a slower speech rate of -3 I can say my messages slower
+t-16,by specifying no speech rate I will speak at the default rate of 0
+t-11,r3,t minus 10
+t-10,r3,9
+t-9,r3,8
+t-8,r3,7
+t-7,r3,6
+t-6,r3,5
+t-5,r3,4
+t-4,r3,3
+t-3,r3,2
+t-2,r3,1
+t-1,blast off
+t5,by typing in positive times I can have messages spoken after my event has occurred
+t10,10 seconds since takeoff
