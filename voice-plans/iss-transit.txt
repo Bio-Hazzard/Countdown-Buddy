@@ -23,7 +23,7 @@ t-05:00,t -5 minutes untill i.s.s. transit
 t-04:00,t -4 minutes
 t-03:00,t -3 minutes
 t-02:00,t -2 minutes
-t-01:00,t -1 minutes
+t-01:00,t -1 minute
 t-50,t -50 seconds
 t-40,t -40 seconds
 t-30,t -30 seconds
